@@ -1,0 +1,16 @@
+.box-1 {
+    position: relative;
+    background-color: darkred;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    align-items: center;
+}
+.box-2::after {
+    content: '';
+    position: absolute;
+    background-color: coral;
+    height: 200px;
+    width: 100px;
+    
+}
